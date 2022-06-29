@@ -126,7 +126,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .nav__links {
@@ -197,7 +197,8 @@ button {
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 40vh;
+  height: 100vh;
+  max-height: 50vh;
   padding: 32px;
   margin: 16px;
   border: 2px solid lightgray;
@@ -240,7 +241,6 @@ button {
   font-weight: 600;
 }
 
-
 .menu__btn {
   margin: 0 auto;
 }
@@ -266,7 +266,6 @@ button {
 
 .header__description {
   width: 45%;
-  
 }
 
 .header__img {
@@ -298,7 +297,7 @@ button {
 .trusted__wrapper {
   height: 140px;
   max-width: 70%;
-  margin-top: 80px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -748,7 +747,7 @@ footer {
 .fa-brands:hover {
   cursor: pointer;
   color: rgb(255, 0, 0);
-  transform: scale(2.0);
+  transform: scale(2);
 }
 
 .footer__hover--effect:after {
@@ -953,19 +952,18 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
-  
 
   .footer__category {
     width: 100%;
   }
 
   .footer__links {
-    width: calc(100%/3);
+    width: calc(100% / 3);
     margin-top: 40px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .service {
     width: 100%;
     max-width: 70%;
@@ -987,7 +985,7 @@ footer {
   }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
   .footer__links {
     width: 50%;
   }
@@ -1005,20 +1003,10 @@ footer {
   }
 }
 
-@media (max-width:300px) {
+@media (max-width: 300px) {
   .footer__links {
     width: 100%;
   }
 }
 
 /* ANIMATIONS */
-
-@keyframes animate-backdrop {
-  0% {
-    right: 0px;
-  }
-
-  80% {
-    left: 20px;
-  }
-}
