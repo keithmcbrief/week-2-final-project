@@ -19,12 +19,12 @@
         <span class="text">Treact</span>
       </figure>
       <ul class="nav__links">
-        <li><a class="nav__link" href="">About</a></li>
-        <li><a class="nav__link" href="">Blog</a></li>
-        <li><a class="nav__link" href="">Pricing</a></li>
-        <li><a class="nav__link" href="">Contact Us</a></li>
-        <li><a class="nav__link nav__link--login" href="">Login</a></li>
-        <button class="btn">Sign Up</button>
+        <li><a class="nav__link link__hover--effect" href="">About</a></li>
+        <li><a class="nav__link link__hover--effect" href="">Blog</a></li>
+        <li><a class="nav__link link__hover--effect" href="">Pricing</a></li>
+        <li><a class="nav__link link__hover--effect" href="">Contact Us</a></li>
+        <li><a class="nav__link nav__link--login link__hover--effect" href="">Login</a></li>
+        <button class="btn nav__btn">Sign Up</button>
       </ul>
     </nav>
 
@@ -33,7 +33,7 @@
         <div class="row">
           <div class="header__wrapper">
             <div class="header__description">
-              <h1 class="section__title">
+              <h1 class="landing__title">
                 Beautiful React Templates
                 <span class="purple__text">for you.</span>
               </h1>
@@ -74,7 +74,7 @@
             <h1 class="section__title">
               We have Amazing <span class="purple__text">Service.</span>
             </h1>
-            <p class="section__para">
+            <p class="section__para capped__title">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse
               voluptates aut iure perspiciatis harum labore, accusantium sit
               exercitationem voluptas? Esse!
@@ -227,7 +227,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="values">
       <div class="container">
         <div class="row row__values">
           <div class="description__wrapper">
@@ -253,7 +253,7 @@
                   industry standard.
                 </p>
               </div>
-              <div class="principle">
+              <div class="principle professionalism">
                 <figure class="principle__img">
                   <i class="fa-solid fa-briefcase"></i
                   ><span class="principle__title">Professionalism</span>
@@ -266,7 +266,7 @@
             </div>
             <button class="btn btn__learn--more">Learn More</button>
           </div>
-          <figure>
+          <figure class="values__img">
             <img src="./assets/valuesimg.svg" alt="" />
           </figure>
         </div>
@@ -274,147 +274,173 @@
     </section>
 
     <section id="pricing">
-        <div class="container">
-            <div class="row row__pricing">
-                <p class="section__category">PRICING</p>
-                <h1>Reasonable & Flexible <span class="purple__text">Plans.</span></h1>
-                <div class="section__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat praesentium animi id. Molestiae, quisquam omnis!</div>
-                <div class="plans">
-                    <div class="plan plan__personal">
-                        <div class="plan__box1">
-                            <p class="plan__type">PERSONAL</p>
-                            <p class="plan__price">$17.99</p>
-                            <p class="plan__monthly">MONTHLY</p>
-                        </div>
-                        <div class="plan__box2">
-                            <ul class="plan__list">
-                                <li class="plan__for">For Individuals</li>
-                                <li class="plan__feature">30 Templates</li>
-                                <li class="plan__feature">7 Landing Pages</li>
-                                <li class="plan__feature">22 Internal Pages</li>
-                                <li class="plan__feature">Basic Assistance</li>
-                            </ul>
-                        </div>
-                        <div class="plan__box3">
-                            <button class="buy btn1">BUY NOW</button>
-                        </div>
-                    </div>
-                    <div class="plan plan__business">
-                        <div class="plan__box1">
-                            <p class="plan__type">BUSINESS</p>
-                            <p class="plan__price">$37.99</p>
-                            <p class="plan__monthly">MONTHLY</p>
-                        </div>
-                        <div class="plan__box2 business__box2">
-                            <ul class="plan__list">
-                                <li class="plan__for">For Small Businesses</li>
-                                <li class="plan__feature">60 Templates</li>
-                                <li class="plan__feature">15 Landing Pages</li>
-                                <li class="plan__feature">22 Internal Pages</li>
-                                <li class="plan__feature">Priority Assistance</li>
-                            </ul>
-                        </div>
-                        <div class="plan__box3">
-                            <button class="buy btn2">BUY NOW</button>
-                        </div>
-                    </div>
-                    <div class="plan plan__enterprise">
-                        <div class="plan__box1">
-                            <p class="plan__type">ENTERPRISE</p>
-                            <p class="plan__price">$57.99</p>
-                            <p class="plan__monthly">MONTHLY</p>
-                        </div>
-                        <div class="plan__box2">
-                            <ul class="plan__list">
-                                <li class="plan__for">For Large Companies</li>
-                                <li class="plan__feature">90 Templates</li>
-                                <li class="plan__feature">27 Landing Pages</li>
-                                <li class="plan__feature">37 Internal Pages</li>
-                                <li class="plan__feature">Personal Assistance</li>
-                            </ul>
-                        </div>
-                        <div class="plan__box3">
-                            <button class="buy btn3">BUY NOW</button>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row row__pricing">
+          <p class="section__category">PRICING</p>
+          <h1>
+            Reasonable & Flexible <span class="purple__text">Plans.</span>
+          </h1>
+          <div class="section__para capped__title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            praesentium animi id. Molestiae, quisquam omnis!
+          </div>
+          <div class="plans">
+            <div class="plan plan__personal">
+              <div class="plan__box1">
+                <p class="plan__type">PERSONAL</p>
+                <p class="plan__price">$17.99</p>
+                <p class="plan__monthly">MONTHLY</p>
+              </div>
+              <div class="plan__box2">
+                <ul class="plan__list">
+                  <li class="plan__for">For Individuals</li>
+                  <li class="plan__feature">30 Templates</li>
+                  <li class="plan__feature">7 Landing Pages</li>
+                  <li class="plan__feature">22 Internal Pages</li>
+                  <li class="plan__feature">Basic Assistance</li>
+                </ul>
+              </div>
+              <div class="plan__box3">
+                <button class="buy btn1">BUY NOW</button>
+              </div>
             </div>
+            <div class="plan plan__business">
+              <div class="plan__box1">
+                <p class="plan__type">BUSINESS</p>
+                <p class="plan__price">$37.99</p>
+                <p class="plan__monthly">MONTHLY</p>
+              </div>
+              <div class="plan__box2 business__box2">
+                <ul class="plan__list">
+                  <li class="plan__for">For Small Businesses</li>
+                  <li class="plan__feature">60 Templates</li>
+                  <li class="plan__feature">15 Landing Pages</li>
+                  <li class="plan__feature">22 Internal Pages</li>
+                  <li class="plan__feature">Priority Assistance</li>
+                </ul>
+              </div>
+              <div class="plan__box3">
+                <button class="buy btn2">BUY NOW</button>
+              </div>
+            </div>
+            <div class="plan plan__enterprise">
+              <div class="plan__box1">
+                <p class="plan__type">ENTERPRISE</p>
+                <p class="plan__price">$57.99</p>
+                <p class="plan__monthly">MONTHLY</p>
+              </div>
+              <div class="plan__box2">
+                <ul class="plan__list">
+                  <li class="plan__for">For Large Companies</li>
+                  <li class="plan__feature">90 Templates</li>
+                  <li class="plan__feature">27 Landing Pages</li>
+                  <li class="plan__feature">37 Internal Pages</li>
+                  <li class="plan__feature">Personal Assistance</li>
+                </ul>
+              </div>
+              <div class="plan__box3">
+                <button class="buy btn3">BUY NOW</button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="testimonials">
-        <div class="container">
-            <div class="row row__testimonials">
-                <figure>
-                    <img src="./assets/testimonialsimg.svg" alt="">
-                </figure>
-                <div class="description__wrapper">
-                    <p class="section__category">TESTIMONIALS</p>
-                    <h1>Our Clients <span class="purple__text">Love Us.</span></h1>
-                    <div class="section__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa sunt rem, qui dignissimos in maxime molestiae repellendus vero placeat consequatur.</div>
-                </div>
-            </div>   
-        </div>
-    </section>
-                
-    <section>
-        <div class="container">
-            <div class="row row__two--buttons">
-                <div class="two__buttons">
-                    <div class="two__buttons--wrapper">
-                        <p class="two__buttons--description">Developers all over the world are happily using Treact.</p>
-                        <div class="buttons">
-                            <button class="get">Get Started</button>
-                            <button class="contact">Contact Us</button>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row row__testimonials">
+          <figure class="testimonials__img">
+            <img src="./assets/testimonialsimg.svg" alt="" />
+          </figure>
+          <div class="description__wrapper">
+            <p class="section__category">TESTIMONIALS</p>
+            <h1>Our Clients <span class="purple__text">Love Us.</span></h1>
+            <div class="section__para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+              sunt rem, qui dignissimos in maxime molestiae repellendus vero
+              placeat consequatur.
             </div>
+          </div>
         </div>
-    </section>        
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row row__two--buttons">
+          <div class="two__buttons">
+            <div class="two__buttons--wrapper">
+              <p class="two__buttons--description">
+                Developers all over the world are happily using Treact.
+              </p>
+              <div class="buttons">
+                <button class="get">Get Started</button>
+                <button class="contact">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 
   <footer>
     <div class="container">
-        <div class="row row__footer">
-            <div class="footer__links--wrapper">
-                <div class="footer__links">
-                    <a href="" class="footer__category">MAIN</a>
-                    <a href="" class="footer__link">Blog</a>
-                    <a href="" class="footer__link">FAQs</a>
-                    <a href="" class="footer__link">Support</a>
-                    <a href="" class="footer__link">About Us</a>
-                </div>
-                <div class="footer__links">
-                    <a href="" class="footer__category">MAIN</a>
-                    <a href="" class="footer__link">Blog</a>
-                    <a href="" class="footer__link">FAQs</a>
-                    <a href="" class="footer__link">Support</a>
-                    <a href="" class="footer__link">About Us</a>
-                </div>
-                <div class="footer__links">
-                    <a href="" class="footer__category">MAIN</a>
-                    <a href="" class="footer__link">Blog</a>
-                    <a href="" class="footer__link">FAQs</a>
-                    <a href="" class="footer__link">Support</a>
-                    <a href="" class="footer__link">About Us</a>
-                </div>
-                <div class="footer__links">
-                    <a href="" class="footer__category">MAIN</a>
-                    <a href="" class="footer__link">Blog</a>
-                    <a href="" class="footer__link">FAQs</a>
-                    <a href="" class="footer__link">Support</a>
-                    <a href="" class="footer__link">About Us</a>
-                </div>
-                <div class="footer__links">
-                    <a href="" class="footer__category">MAIN</a>
-                    <a href="" class="footer__link">Blog</a>
-                    <a href="" class="footer__link">FAQs</a>
-                    <a href="" class="footer__link">Support</a>
-                    <a href="" class="footer__link">About Us</a>
-                </div>
-            </div>
+      <div class="row row__footer">
+        <div class="footer__links--wrapper">
+          <div class="footer__links">
+            <p class="footer__category">MAIN</p>
+            <a href="" class="footer__link footer__hover--effect">Blog</a>
+            <a href="" class="footer__link footer__hover--effect">FAQs</a>
+            <a href="" class="footer__link footer__hover--effect">Support</a>
+            <a href="" class="footer__link footer__hover--effect">About Us</a>
+          </div>
+          <div class="footer__links">
+            <p class="footer__category">PRODUCT</p>
+            <a href="" class="footer__link footer__hover--effect">Log In</a>
+            <a href="" class="footer__link footer__hover--effect">Personal</a>
+            <a href="" class="footer__link footer__hover--effect">Business</a>
+            <a href="" class="footer__link footer__hover--effect">Team</a>
+          </div>
+          <div class="footer__links">
+            <p class="footer__category">PRESS</p>
+            <a href="" class="footer__link footer__hover--effect">Logos</a>
+            <a href="" class="footer__link footer__hover--effect">Events</a>
+            <a href="" class="footer__link footer__hover--effect">Stories</a>
+            <a href="" class="footer__link footer__hover--effect">Office</a>
+          </div>
+          <div class="footer__links">
+            <p class="footer__category">TEAM</p>
+            <a href="" class="footer__link footer__hover--effect">Career</a>
+            <a href="" class="footer__link footer__hover--effect">Founders</a>
+            <a href="" class="footer__link footer__hover--effect">Culture</a>
+            <a href="" class="footer__link footer__hover--effect">Onboarding</a>
+          </div>
+          <div class="footer__links">
+            <p class="footer__category">Legal</p>
+            <a href="" class="footer__link footer__hover--effect">GDPR</a>
+            <a href="" class="footer__link footer__hover--effect">Privacy Policy</a>
+            <a href="" class="footer__link footer__hover--effect">Terms of Service</a>
+            <a href="" class="footer__link footer__hover--effect">Disclaimer</a>
+          </div>
         </div>
+        <div class="footer__line"></div>
+        <div class="footer__copyright">
+          <div class="footer__logo--wrapper">
+            <figure class="footer__logo">
+              <img src="./assets/logoinverted.svg" alt="">
+            </figure>
+            <span class="footer__logo--text">Treact Inc.</span>
+          </div>
+          <p class="copyright">&copy; 2018 Treact Inc. All Rights Reserved.</p>
+          <div class="socials">
+            <div class="footer__social--wrapper"><i href="" class="fa-brands fa-facebook-f"></i></div>
+            <div class="footer__social--wrapper"><i href="" class="fa-brands fa-twitter"></i></div>
+            <div class="footer__social--wrapper"><i href="" class="fa-brands fa-youtube"></i></div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </html>
