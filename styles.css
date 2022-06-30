@@ -53,10 +53,9 @@ a {
   height: 3px;
   bottom: -3px;
   width: 0%;
-  background-color:#243e63;
+  background-color: #243e63;
   right: 0;
   transition: all 300ms ease;
-  
 }
 
 .link__hover--effect:hover:after {
@@ -156,8 +155,8 @@ nav {
 
 .logo:hover,
 .menu__link:hover,
-.btn__menu:hover
-,.text:hover {
+.btn__menu:hover,
+.text:hover {
   cursor: pointer;
   color: rgb(82, 17, 210);
 }
@@ -166,7 +165,7 @@ nav {
   font-size: 18px;
   line-height: 1.5em;
   padding: 40px 0;
-  color:#243e63;
+  color: #243e63;
 }
 
 figure {
@@ -237,7 +236,7 @@ button {
 
 .menu__list,
 .menu__link {
-  margin:16px;
+  margin: 16px;
   font-size: 20px;
   color: #243e63;
 }
@@ -340,7 +339,6 @@ button {
 .service__title--wrapper {
   text-align: center;
   margin: 0 auto;
-  
 }
 
 .service__img {
@@ -407,7 +405,7 @@ button {
 }
 
 .step__number {
-  color: #Cbd5e0;
+  color: #cbd5e0;
   font-size: 40px;
   font-weight: 600;
 }
@@ -512,7 +510,7 @@ button {
 
 .plan {
   width: 100%;
-  max-width: calc(90%/3);
+  max-width: calc(90% / 3);
   padding: ;
 }
 
@@ -576,7 +574,11 @@ button {
 }
 
 .btn1 {
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   color: white;
 }
 
@@ -607,7 +609,11 @@ button {
 }
 
 .btn3 {
-  background:linear-gradient(115deg, rgb(192, 99, 19) 0%, rgba(187, 84, 5, 0.379) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(192, 99, 19) 0%,
+    rgba(187, 84, 5, 0.379) 100%
+  );
   color: white;
 }
 
@@ -628,7 +634,6 @@ button {
 .btn3 {
   transition: all 300ms ease;
 }
-
 
 /* TESTIMONIALS */
 
@@ -962,7 +967,6 @@ footer {
   .plans {
     margin: 0 auto;
     max-width: 400px;
-
   }
 
   .row__testimonials {
@@ -1013,7 +1017,7 @@ footer {
     width: 100%;
     margin: 0;
   }
-  
+
   .principle__top {
     display: flex;
     justify-content: center;
@@ -1046,13 +1050,12 @@ footer {
   .footer__links {
     width: 50%;
     text-align: center;
-    margin-top:40px;
+    margin-top: 40px;
   }
 
   .footer__links--wrapper {
     margin: 0 auto;
     padding: 40px 0 0 0;
-
   }
 
   .buttons {
