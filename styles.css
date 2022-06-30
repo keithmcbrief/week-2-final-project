@@ -816,10 +816,6 @@ footer {
   transform: scale(2);
 }
 
-.footer__hover--effect {
-  width: 
-}
-
 .footer__hover--effect:after {
   position: absolute;
   content: "";
@@ -1068,6 +1064,20 @@ footer {
   .get,
   .contact {
     margin: 16px 0;
+  }
+
+  .service { 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service__img--wrapper {
+    margin: 0 auto;
+  }
+
+  .service__text--description,
+  .service__text--title {
+    text-align: center;
   }
 }
 
