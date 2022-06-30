@@ -1027,6 +1027,7 @@ footer {
 @media (max-width: 768px) {
   .service {
     width: 100%;
+    max-width: 300px;
     margin: 0 auto;
   }
 
